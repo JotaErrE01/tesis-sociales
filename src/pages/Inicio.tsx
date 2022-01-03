@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom';
-import PrimaryButton from '../components/PrimaryButton';
+import {PrimaryButton} from '../components/PrimaryButton';
 
-const Inicio = () => {
+export const Inicio = () => {
 
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/about", { replace: true });
+    navigate("/dashboard", { replace: true });
   }
 
   return (
