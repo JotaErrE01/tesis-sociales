@@ -6,7 +6,7 @@ export const Bienvenida = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/dashboard", { replace: true });
+    navigate("/inicio", { replace: true });
   }
 
   return (

@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     background-size: 80%;
 }
+
+/* .active{
+    @apply bg-blue-500;
+    color: white;
+} */

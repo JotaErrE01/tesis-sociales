@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
+//TODO: utilizar svgs
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
