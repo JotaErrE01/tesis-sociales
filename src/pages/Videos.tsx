@@ -1,25 +1,16 @@
 import ReactPlayer from 'react-player';
-import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import { optionsList } from '../data/optionList';
+import { useParamState } from '../hooks/useParamState';
 
 export const Videos = () => {
 
-  const params = useParams();
-  const [videoState, setVideoState] = useState(1);
-
-  useEffect(() => {
-    if (params.id) {
-      setVideoState(parseInt(params.id));
-    }
-
-  }, [params]);
+  const { paramState } = useParamState();
 
   return (
     <>
       {
         optionsList['videos'].map(({ id, title, url }) => (
-          videoState === id &&
+          paramState === id &&
           <div
             key={id}
             className="h-full flex flex-col items-center"
