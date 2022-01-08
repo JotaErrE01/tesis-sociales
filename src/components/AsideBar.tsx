@@ -15,7 +15,7 @@ export const AsideBar = () => {
   }, [location])
 
   return (
-    <div className="bg-green-600 w-1/4 rounded-xl p-2 grid items-center">
+    <div className="bg-green-600 w-1/4 rounded-xl p-2 grid items-center h-full">
       <ul className="list-none text-white text-xl h-4/5 my-auto">
         {
           Object.keys(optionsList).map((optionList) => {

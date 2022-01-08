@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
       },
+      height: {
+        // "h-50" : "50rem",
+      }
     }
   },
   plugins: [],

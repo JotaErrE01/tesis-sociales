@@ -16,14 +16,13 @@ export const Videos = () => {
             className="h-full flex flex-col items-center"
           >
             <h1
-              className="text-white text-3xl font-bold mt-5"
+              className="text-white text-3xl font-bold my-5"
             >{title}</h1>
 
             <ReactPlayer
               url={url}
-              className="m-auto"
               width="80%"
-              height="75%"
+              height="500px"
               controls={true}
             />
           </div>

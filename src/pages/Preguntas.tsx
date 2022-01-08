@@ -2,8 +2,8 @@
 
 export const Preguntas = () => {
   return (
-    <div>
-      <h1>Desde questions</h1>
+    <div className="grid items-center h-full">
+      <h1 className="">hols</h1>
     </div>
   )
 }

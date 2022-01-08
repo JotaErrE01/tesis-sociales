@@ -1,4 +1,4 @@
-import DashboardRoutes from './routes/Navigation';
+import DashboardRoutes from './routes/DashboardRoutes';
 
 function App() {
   return (

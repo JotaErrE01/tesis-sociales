@@ -43,4 +43,12 @@ export const optionsList = {
       to: '/videos/5',
     },
   ],
+  juegos: [
+    {
+      id: 1,
+      title: 'El Continente Americano',
+      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      to: '/juegos/1',
+    },
+  ]
 };

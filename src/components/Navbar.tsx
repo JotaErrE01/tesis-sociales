@@ -10,15 +10,18 @@ export const Navbar = () => {
           className="navbar navbar-expand-lg navbar-dark flex justify-evenly text-2xl text-white mx-auto container"
         >
           {
-            navLinks.map(({ text, to }) => (
+            navLinks.map(({ text, to, svg }) => (
               <NavLink
-                to={to}
-                key={to}
-                className="font-bold p-3 hover:bg-blue-500 transition:bg-blue-500 duration-200"
-                style={({isActive}) => ({
-                  backgroundColor: isActive ? 'rgb(59 130 246 / 1)' : '',
-                })}
-              >{text}</NavLink>
+                  key={to}
+                  to={to}
+                  className="font-bold p-3 flex gap-2 items-center hover:bg-blue-500 transition:bg-blue-500 duration-200 hover:cursor-pointer"
+                  style={({ isActive }) => ({
+                    backgroundColor: isActive ? 'rgb(59 130 246 / 1)' : '',
+                  })}
+                >
+                  <i className={`${svg} w-fit h-fit`}></i>
+                  <p>{text}</p>
+                </NavLink>
             ))
           }
         </nav>
