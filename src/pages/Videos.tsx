@@ -1,4 +1,3 @@
-import ReactPlayer from 'react-player';
 import { optionsList } from '../data/optionList';
 import { useParamState } from '../hooks/useParamState';
 
@@ -19,12 +18,7 @@ export const Videos = () => {
               className="text-white text-3xl font-bold my-5"
             >{title}</h1>
 
-            <ReactPlayer
-              url={url}
-              width="80%"
-              height="500px"
-              controls={true}
-            />
+            <iframe src={url} className="w-11/12 aspect-video rounded shadow shadow-black bg-zinc-800" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         ))
       }

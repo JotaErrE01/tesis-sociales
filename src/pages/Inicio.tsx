@@ -1,26 +1,23 @@
-import { optionsList } from '../data/optionList';
-import { useParamState } from '../hooks/useParamState';
-
+import { useNavigate, useOutlet, useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export const Inicio = () => {
 
-  const { paramState } = useParamState();
+  const outlet = useOutlet();
+  const params = useParams();
+  const navigate = useNavigate();
+  
+  useEffect(() => {
+    if (params.id) {
+      navigate(`/inicio/${params.id}`);
+    }else{
+      navigate('/inicio/1');
+    }
+  }, [params.id]);
 
   return (
     <>
-      {
-        optionsList['inicio'].map(option => (
-          paramState === option.id &&
-          <div
-            key={option.id}
-            className="h-full flex flex-col items-center"
-          >
-            <h1
-              className="text-white text-3xl font-bold mt-5"
-            >{option.title}</h1>
-          </div>
-        ))
-      }
+      {outlet}
     </>
   )
 }

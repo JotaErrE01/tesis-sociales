@@ -7,9 +7,10 @@ export const AsideBar = () => {
 
   const [urList, setUrList] = useState<string[]>();
   const location = useLocation();
-  
-  useEffect(() => { 
-    if(location) {      
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    if (location) {
       setUrList(location.pathname.split('/'));
     }
   }, [location])
@@ -19,16 +20,17 @@ export const AsideBar = () => {
       <ul className="list-none text-white text-xl h-4/5 my-auto">
         {
           Object.keys(optionsList).map((optionList) => {
-            if( urList?.includes(optionList) ) {
-              return optionsList[(optionList as keyof typeof optionsList)].map(option => (
-                <li key={option.id} className="w-fit mt-5 block">
-                  <NavLink 
-                    to={option.to}
-                    style={({isActive}) => ({
-                      borderBottom: isActive ? '2px solid rgb(59 130 246 / 1)' : '',
-                    })}
-                    className="hover:border-b-2 border-b-blue-500 hover:cursor-pointer"
-                  >{option.title}</NavLink>
+            if (urList?.includes(optionList)) {
+              return optionsList[(optionList as keyof typeof optionsList)].map(({ id, to, title }, i) => (
+                <li key={id} className="w-fit mt-5 block">
+                    <NavLink
+                      to={to}
+                      style={({ isActive }) => ({
+                        borderBottom: isActive ? '2px solid rgb(59 130 246 / 1)' : '',
+                      })}
+                      className="hover:border-b-2 border-b-blue-500 hover:cursor-pointer"
+                    >{title}</NavLink>
+
                 </li>
               ))
             }

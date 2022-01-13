@@ -5,7 +5,7 @@ import { navLinks } from '../data/navLinks';
 export const Navbar = () => {
   return (
     <div>
-      <header className='bg-orange-500'>
+      <header className="bg-orange-500 shadow-sm shadow-orange-900">
         <nav
           className="navbar navbar-expand-lg navbar-dark flex justify-evenly text-2xl text-white mx-auto container"
         >

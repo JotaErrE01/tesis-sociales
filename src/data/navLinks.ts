@@ -1,6 +1,6 @@
 export const navLinks = [
     {
-        to: '/inicio/1',
+        to: '/inicio',
         text: 'Inicio',
         svg: 'fas fa-home',
     },
