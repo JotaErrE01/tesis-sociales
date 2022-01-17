@@ -18,7 +18,7 @@ export const Videos = () => {
               className="text-white text-3xl font-bold my-5"
             >{title}</h1>
 
-            <iframe src={url} className="w-11/12 aspect-video rounded shadow shadow-black bg-zinc-800" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe src={url} className="w-11/12 aspect-video rounded shadow  bg-gray-700" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         ))
       }
