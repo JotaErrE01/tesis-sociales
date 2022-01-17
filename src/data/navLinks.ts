@@ -5,12 +5,12 @@ export const navLinks = [
         svg: 'fas fa-home',
     },
     {
-        to: '/videos/1',
+        to: '/videos',
         text: 'Videos',
         svg: 'fas fa-video',
     },
     {
-        to: '/juegos/1',
+        to: '/juegos',
         text: 'Juegos',
         svg: 'fas fa-dice',
     },

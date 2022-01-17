@@ -30,7 +30,6 @@ export const AsideBar = () => {
                       })}
                       className="hover:border-b-2 border-b-blue-500 hover:cursor-pointer"
                     >{title}</NavLink>
-
                 </li>
               ))
             }

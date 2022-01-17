@@ -9,12 +9,21 @@ const DashboardRoutes = () => {
       <Routes>
         <Route path="welcome" element={<Bienvenida />} />
         <Route path="/*" element={<SocialesApp />} >
-          {/* <Route path="inicio/:id/*" element={<Inicio />} /> */}
+          
+          {/* rutas de inicio */}
           <Route path="inicio" element={<Inicio />} >
             <Route path=":id/*" element={<InicioContent />} />
           </Route>
+
+          {/* rutas videos */}
+          <Route path="videos" element={<Videos />} />
           <Route path="videos/:id" element={<Videos />} />
+          
+          {/* rutas juegos */}
+          <Route path="juegos" element={<Juegos />} />
           <Route path="juegos/:id" element={<Juegos />} />
+
+          {/* rutas agradecimientos */}
           <Route path="preguntas" element={<Preguntas />} />
           <Route path="*" element={<Navigate to="welcome" replace />} />
         </Route>
