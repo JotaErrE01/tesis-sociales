@@ -1,9 +1,21 @@
 import { optionsList } from '../data/optionList';
 import { useParamState } from '../hooks/useParamState';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export const Videos = () => {
 
   const { paramState } = useParamState();
+  const params = useParams();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (params.id) {
+      navigate(`/videos/${params.id}`);
+    }else{
+      navigate('/videos/1');
+    }
+  }, [params.id]);
 
   return (
     <>
