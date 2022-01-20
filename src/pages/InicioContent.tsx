@@ -1,6 +1,6 @@
 import { optionsList } from '../data/optionList';
 import { useParamState } from '../hooks/useParamState';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { Fragment, useState } from 'react';
 import { TopicAbout } from './TopicAbout';
 
@@ -8,6 +8,9 @@ import { TopicAbout } from './TopicAbout';
 export const InicioContent = () => {
 
   const { paramState } = useParamState();
+  const location = useLocation();
+  // console.log(location.pathname);
+  
   const [visible, setVisible] = useState(true);
   const navigate = useNavigate();
 

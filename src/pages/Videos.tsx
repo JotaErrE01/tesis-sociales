@@ -1,6 +1,6 @@
 import { optionsList } from '../data/optionList';
 import { useParamState } from '../hooks/useParamState';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
 
 export const Videos = () => {
