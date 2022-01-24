@@ -54,15 +54,12 @@ export const InicioContent = () => {
 
             <Routes>
               {
-                option.childrenRoutes?.map(({ id, title, desc, desc2, img }) => (
+                option.childrenRoutes?.map(({ id, ...rest }) => (
                   <Route key={id} path={id} element={
                     <TopicAbout
-                      title={title}
+                      {...rest}
                       visible={visible}
-                      setVisible={setVisible}
-                      desc={desc}
-                      desc2={desc2}
-                      img={img}
+                      setVisible={setVisible}                      
                     />
                   } />
                 ))
