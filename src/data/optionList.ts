@@ -260,9 +260,15 @@ export const optionsList = {
     },
     {
       id: 3,
-      title: '¿Sabes la ubicacion de las civilizaciones antigüas',
+      title: '¿Sabes la ubicacion de las civilizaciones antigüas?',
       url: 'https://es.educaplay.com/juego/11168029-el_continente_americano.html',
       to: '/juegos/3',
-    }
+    },
+    {
+      id: 4,
+      title: 'Comprueba Tus Conocimientos',
+      url: 'https://www.educaplay.com/game/11282082-juego_de_preguntas_y_respuestas.html',
+      to: '/juegos/4',
+    },
   ]
 };
