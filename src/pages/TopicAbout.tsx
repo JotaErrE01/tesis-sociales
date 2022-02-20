@@ -31,7 +31,7 @@ export const TopicAbout = (props: TopicAboutProps) => {
         >{props.title}</h1>
 
         <div
-          className="lg:grid lg:grid-cols-2 gap-5 mt-14"
+          className="lg:grid lg:grid-cols-2 gap-5 mt-14 text-left"
         >
 
           <img className="aspect-[4/3] rounded shadow bg-gray-600" src={props.img} alt={props.title} />

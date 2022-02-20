@@ -269,6 +269,6 @@ export const optionsList = {
       title: 'Comprueba Tus Conocimientos',
       url: 'https://www.educaplay.com/game/11282082-juego_de_preguntas_y_respuestas.html',
       to: '/juegos/4',
-    },
+    }
   ]
 };

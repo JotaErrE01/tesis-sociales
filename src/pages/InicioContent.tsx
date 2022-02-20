@@ -1,6 +1,6 @@
 import { optionsList } from '../data/optionList';
 import { useParamState } from '../hooks/useParamState';
-import { Route, Routes, useNavigate, useLocation, Navigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import { Fragment, useState } from 'react';
 import { TopicAbout } from './TopicAbout';
 
@@ -8,8 +8,6 @@ import { TopicAbout } from './TopicAbout';
 export const InicioContent = () => {
 
   const { paramState } = useParamState();
-  const location = useLocation();
-  // console.log(location.pathname);
   
   const [visible, setVisible] = useState(true);
   const navigate = useNavigate();
@@ -27,7 +25,7 @@ export const InicioContent = () => {
           paramState === option.id &&
           <div
             key={option.id}
-            className="h-full flex flex-col items-center"
+            className="h-full flex flex-col items-center text-center"
           >
             {
               visible &&
@@ -44,7 +42,7 @@ export const InicioContent = () => {
                   {
                     visible &&
                     <button
-                      className="bg-orange-500 mb-10 mr-5 rounded text-white p-5 w-6/12 hover:bg-orange-600 transition-all duration-300 ease-in-out shadow shadow-orange-600 animate__animated animate__fadeIn"
+                      className="bg-orange-500 mb-10 rounded text-white p-5 w-full md:w-6/12 hover:bg-orange-600 transition-all duration-300 ease-in-out shadow shadow-orange-600 animate__animated animate__fadeIn"
                       onClick={() => handleClick(option.id, id)}
                     >{title}</button>
                   }

@@ -12,16 +12,16 @@ export const AsideBar = () => {
     if (location) {
       setUrList(location.pathname.split('/'));
     }
-  }, [location])
+  }, [location]);
 
   return (
-    <div className="bg-green-600 w-1/4 rounded-xl p-2 grid items-center">
-      <ul className="list-none text-white text-xl h-4/5 my-auto">
+    <div className="bg-green-600 lg:w-1/4 rounded-xl p-2 lg:grid items-center">
+      <ul className="list-none text-white lg:text-xl text-base md:text-lg justify-evenly h-4/5 my-auto flex lg:block flex-wrap">
         {
           Object.keys(optionsList).map((optionList) => {
             if (urList?.includes(optionList)) {
               return optionsList[(optionList as keyof typeof optionsList)].map(({ id, to, title }, i) => (
-                <li key={id} className="w-fit mt-5 block">
+                <li key={id} className="w-fit lg:mt-5 block p-2 lg:p-0 text-center lg:text-left">
                     <NavLink
                       to={to}
                       style={({ isActive }) => ({
