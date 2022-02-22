@@ -24,7 +24,6 @@ export const Bienvenida = () => {
           handleClick={handleClick} 
         />
       </div>
-
     </div>
   )
 }
