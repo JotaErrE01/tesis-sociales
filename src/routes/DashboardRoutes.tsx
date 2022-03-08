@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Bienvenida, SocialesApp } from '../pages';
-import { Inicio, Videos, Juegos, Preguntas } from '../pages/index';
+import { Inicio, Videos, Juegos, Puzzles } from '../pages/index';
 import { InicioContent } from '../pages/InicioContent';
 
 const DashboardRoutes = () => {
@@ -24,7 +24,7 @@ const DashboardRoutes = () => {
           <Route path="juegos/:id" element={<Juegos />} />
 
           {/* rutas agradecimientos */}
-          <Route path="preguntas" element={<Preguntas />} />
+          <Route path="puzzles/*" element={<Puzzles />} />
           <Route path="*" element={<Navigate to="welcome" replace />} />
         </Route>
       </Routes>

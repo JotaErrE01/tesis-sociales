@@ -234,7 +234,7 @@ export const optionsList = {
     },
     {
       id: 5,
-      title: '¿Qué diferencia a los Aztecas de los Mayas',
+      title: '¿Qué diferencia a los Aztecas de los Mayas?',
       url: 'https://www.youtube.com/embed/9yc4JIMcZQg',
       to: '/videos/5',
     },
@@ -270,5 +270,31 @@ export const optionsList = {
       url: 'https://www.educaplay.com/game/11282082-juego_de_preguntas_y_respuestas.html',
       to: '/juegos/4',
     }
+  ],
+  puzzles: [
+    {
+      id: 1,
+      title: 'Egipto',
+      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      to: '/puzzles/1',
+    },
+    {
+      id: 2,
+      title: 'El Continente Americano',
+      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      to: '/puzzles/2',
+    },
+    {
+      id: 3,
+      title: 'El Continente Americano',
+      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      to: '/puzzles/3',
+    },
+    {
+      id: 4,
+      title: 'El Continente Americano',
+      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      to: '/puzzles/4',
+    },
   ]
 };
