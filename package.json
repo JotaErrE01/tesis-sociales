@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run pwa",
     "start": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pwa": "workbox generateSW workbox-config.js"
   },
   "dependencies": {
     "query-string": "7.0.1",

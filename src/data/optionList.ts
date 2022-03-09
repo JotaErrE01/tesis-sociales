@@ -275,26 +275,31 @@ export const optionsList = {
     {
       id: 1,
       title: 'Egipto',
-      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=15c7d1a712b7&view=iframe',
       to: '/puzzles/1',
     },
     {
       id: 2,
-      title: 'El Continente Americano',
-      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      title: 'Imperio Romano',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=2987102811d7&view=iframe',
       to: '/puzzles/2',
     },
     {
       id: 3,
-      title: 'El Continente Americano',
-      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      title: 'La Edad Media',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=0e1a484a0df1&view=iframe',
       to: '/puzzles/3',
     },
     {
       id: 4,
-      title: 'El Continente Americano',
-      url: 'https://es.educaplay.com/juego/5873169-continente_americano.html',
+      title: 'Los Incas',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=0fda9e9ecf08&view=iframe',
       to: '/puzzles/4',
     },
   ]
 };
+
+
+
+
+
