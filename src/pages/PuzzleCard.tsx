@@ -16,8 +16,6 @@ export const PuzzleCard = () => {
       {/* <h1 className="text-white text-3xl font-bold my-5 text-center">Puzzle {paramId}</h1> */}
       {
         optionsList['puzzles'].map(({ id, title, url }) => {
-          console.log(id, paramID);
-
           return paramID == id ?
             <div
               key={id}

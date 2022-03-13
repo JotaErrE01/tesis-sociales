@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { Player } from '@lottiefiles/react-lottie-player';
+import { useEffect, useState, useRef } from 'react';
 
 interface TopicAboutProps {
   title: string;
@@ -12,20 +13,22 @@ interface TopicAboutProps {
   title4?: string;
   desc4?: string;
   img: string;
+  lottie?: string;
+  gif?: string;
 }
 
 export const TopicAbout = (props: TopicAboutProps) => {
-
   useEffect(() => {
     return () => {
       props.setVisible(true);
     }
   }, []);
 
+  console.log(props.gif)
 
   return (
     !props.visible ?
-      <div className="mb-[5rem]">
+      <div className="">
         <h1
           className="text-white text-3xl font-bold my-5 text-center"
         >{props.title}</h1>
@@ -78,7 +81,35 @@ export const TopicAbout = (props: TopicAboutProps) => {
 
         </div>
 
+        <div className='flex gap-16 justify-center items-center'>
+          {
+            props.lottie && props.gif ?
+            <>
+              <img className='basis-2/5 w-10' src={props.gif} alt={props.title} />
 
+              <Player
+                autoplay
+                loop
+                src={props.lottie || ''}
+                style={{ width: 250, height: 100 }}
+                className="basis-2/5"
+                speed={3}
+              />
+            </>
+            :
+            props.gif ?
+            <img className='w-4/5 mt-2 md:w-2/5 md:mt-0 rounded-lg mb-2' src={props.gif} alt={props.title} />
+            :
+            <Player 
+              autoplay
+              loop
+              src={props.lottie || ''}
+              style={{ width: 200, height: 200 }}
+              // className="w-"
+              speed={2}
+            />
+          }
+        </div>
       </div>
       :
       <></>

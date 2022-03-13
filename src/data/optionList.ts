@@ -14,6 +14,8 @@ export const optionsList = {
           Sahara hasta la península del Sinaí.
           La cultura egipcia desarrolló los jeroglíficos como forma de escritura, y hasta hoy perduran algunas de las pirámides, sepulturas de faraones hechas por sus sucesores para reforzar su pretendido carácter divino. Miles de miles de esclavos las construían, para depositar en su interior, en cámaras y pasadizos secretos, los cuerpos momificados. Este imperio duró más de dos mil años, hasta los mismos días del esplendor de Roma`,
           img: 'https://fundacionio.com/wp-content/uploads/2020/10/Egipto.png',
+          lottie: 'https://assets6.lottiefiles.com/packages/lf20_sAv8S5.json',
+          gif: 'https://c.tenor.com/IPDLCkpyeUwAAAAC/dia-del-estudiante-egipcios.gif',
         },
         {
           id: 'imperiosAsia',
@@ -23,6 +25,8 @@ export const optionsList = {
           A su vez, la historia de la antigua China constituye la clave de la historia de toda el Asia. No solo que allí hubo presencia de homínidos hace más de medio millón de años, sino que fue, como ya vimos, uno de los primeros centros mundiales de domesticación de plantas y animales.`,
           desc2: 'La producción alimentaria en China llevó a los otros “hitos de la civilización”: alfarería, metalurgia, ciudades, Estados, imperios. En el III milenio a. C. nació la magnífica tradición china de la metalurgia del bronce y, alrededor de 500 a. C., la primera producción de hierro fundido del mundo. En la larga lista de inventos chinos figuran, además, las compuertas para canales, la pólvora, la cometa, la brújula, los tipos movibles, el papel, la porcelana, la imprenta, el timón de popa, la carretilla y muchos más.',
           img: 'https://www.absolutviajes.com/wp-content/uploads/2008/11/arquitectura-china-antigua.png.webp',
+          // lottie: null,
+          gif: 'https://www.gifsanimados.org/data/media/1053/china-imagen-animada-0024.gif'
         },
         {
           id: 'imperioRomano',
@@ -30,6 +34,7 @@ export const optionsList = {
           desc: `Al momento de su apogeo, el Imperio romano se extendía desde la península ibérica al Éufrates y desde Gran Bretaña hasta el desierto del Sahara. Fue el mayor imperio que vio la antigüedad y dejó profunda huella en la cultura occidental. Producto de una organización militar y una eficacia administrativa sin rival, el Imperio romano llegó a dominar todo el Occidente y el Medio Oriente. Durante más de un siglo (90-230 d. C.), hubo tal calma y prosperidad que el período se conoce como la Paz Romana. Pero las disputas políticas y la anarquía militar debilitaron a Roma. Después de siete siglos, cayó ante la rebelión interna y los ataques externos de pueblos del norte de Europa.`,
           desc2: '',
           img: 'https://elcuestor.files.wordpress.com/2015/09/el-suicidio-financiero-del-imperio-romano-en-cc3a1mara-lenta-subir-al-blog.jpg',
+          gif: 'https://quizizz.com/media/resource/gs/quizizz-media/quizzes/8845f7d2-42d8-42ae-a834-44a10d19aaae'
         },
         {
           id: 'cristianismo',
@@ -40,7 +45,8 @@ export const optionsList = {
           Sin juzgar los aspectos religiosos, sí se puede afirmar históricamente que Jesús, con su
           prédica de amor, perdón y solidaridad, atrajo a multitudes; que parte del pueblo judío vio en él al mesías, el redentor que esperaban. Por su parte, él se apartó de los poderosos, los criticó y anduvo con la gente más baja y despreciada. Entre la gente del pueblo escogió doce apóstoles para
           que le siguieran y continuasen su obra.`,
-          img: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Duccio_di_Buoninsegna_014.jpg'
+          img: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Duccio_di_Buoninsegna_014.jpg',
+          lottie: 'https://assets5.lottiefiles.com/packages/lf20_thcjohxh.json'
         }
       ]
     },
@@ -269,7 +275,31 @@ export const optionsList = {
       title: 'Comprueba Tus Conocimientos',
       url: 'https://www.educaplay.com/game/11282082-juego_de_preguntas_y_respuestas.html',
       to: '/juegos/4',
-    }
+    },
+    {
+      id: 5,
+      title: 'Egipto Puzzle',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=15c7d1a712b7&view=iframe',
+      to: '/juegos/5',
+    },
+    {
+      id: 6,
+      title: 'Imperio Romano Puzzle',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=2987102811d7&view=iframe',
+      to: '/juegos/6',
+    },
+    {
+      id: 7,
+      title: 'La Edad Media Puzzle',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=0e1a484a0df1&view=iframe',
+      to: '/juegos/7',
+    },
+    {
+      id: 8,
+      title: 'Los Incas Puzzle',
+      url: 'https://www.jigsawplanet.com/?rc=play&pid=0fda9e9ecf08&view=iframe',
+      to: '/juegos/8',
+    },
   ],
   puzzles: [
     {

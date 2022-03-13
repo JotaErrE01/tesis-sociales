@@ -6,7 +6,13 @@
     background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/44/evolution-1295256_960_720.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 85%;
+}
+
+@media (min-width: 768px) {
+    .bg-image{
+        background-size: 75%;
+    }
 }
 
 /* .active{

@@ -24,7 +24,7 @@ const DashboardRoutes = () => {
           <Route path="juegos/:id" element={<Juegos />} />
 
           {/* rutas agradecimientos */}
-          <Route path="puzzles/*" element={<Puzzles />} />
+          {/* <Route path="puzzles/*" element={<Puzzles />} /> */}
           <Route path="*" element={<Navigate to="welcome" replace />} />
         </Route>
       </Routes>

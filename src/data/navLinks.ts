@@ -15,8 +15,7 @@ export const navLinks = [
         svg: 'fas fa-dice',
     },
     {
-        to: '/puzzles',
-        text: 'Rompecabezas',
-        svg: 'fas fa-puzzle-piece',
+        to: '/creditos',
+        text: 'Creditos',
     }
 ];
