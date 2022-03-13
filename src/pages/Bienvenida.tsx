@@ -26,7 +26,7 @@ export const Bienvenida = () => {
         className="container mx-auto bg-image h-full flex justify-center items-center flex-col md:w-4/5 px-2"
       >
         <h1
-          className="text-cyan-400 text-2xl font-bold mb-14 md:text-5xl text-center border-solid border-cyan-500 border-4 rounded-lg px-4 py-3"
+          className="text-cyan-400 text-2xl relative z-10 font-bold mb-14 md:text-4xl text-center border-solid border-cyan-500 border-4 rounded-lg px-4 py-3"
         >Bienvenido a tu Plataforma para Aprender</h1>
 
         <PrimaryButton
@@ -37,8 +37,8 @@ export const Bienvenida = () => {
         autoplay
         loop
         src={lottieStudent || ''}
-        style={{ height: '250px', width: '250px' }}
-        className="absolute top-0 left-5"
+        // style={{ height: '250px', width: '250px' }}
+        className="absolute top-5 md:top-0 left-5 h-[180px] w-[180px] md:h-[250px] md:w-[250px]"
       >
       </Player>
 
@@ -47,9 +47,14 @@ export const Bienvenida = () => {
         loop
         src={lottieStudents || ''}
         style={{ height: '250px', width: '250px' }}
-        className="absolute bottom-5 right-10"
+        className="absolute top-5 right-10 hidden md:block"
       >
       </Player>
+
+      <img 
+        className="fixed m-auto bottom-20 md:bottom-10 left-0 right-0 w-3/5"
+        src="/gifs/evolution.gif" alt="Evolucion" 
+      />
     </div>
   )
 }
