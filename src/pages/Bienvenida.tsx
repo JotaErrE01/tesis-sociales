@@ -52,7 +52,7 @@ export const Bienvenida = () => {
       </Player>
 
       <img 
-        className="fixed m-auto bottom-20 md:bottom-10 left-0 right-0 w-3/5"
+        className="fixed m-auto bottom-0 md:bottom-10 left-0 right-0 w-3/5"
         src="/gifs/evolution.gif" alt="Evolucion" 
       />
     </div>
