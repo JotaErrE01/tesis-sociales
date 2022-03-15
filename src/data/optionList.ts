@@ -63,6 +63,7 @@ export const optionsList = {
           desc2: `Arabia, una península seca, rodeada por el mar Rojo, el golfo Pérsico y el océano Índico, tenía, cuando nació Mahoma (el año 570 o 571), pocos habitantes, todos de habla árabe, que eran o pastores nómadas, llamados beduinos, o pueblos sedentarios que practicaban la agricultura y el comercio en los oasis del norte o en las tierras más fértiles del sur (donde hoy están Yemen y Omán).
            Hoy el islam es una religión mayoritaria en países de África y Asia, importante en Europa e incluso en América. Sus fieles son conocidos de tres maneras: islamistas, mahometanos (es decir, seguidores de Mahoma) o musulmanes. Aunque la mayoría de los árabes profesa el islamismo, también hay árabes de otras religiones y también muchos musulmanes que no son árabes.`,
           img: 'https://cdn.storyboardthat.com/site-images/history/islam.png',
+          gif: 'https://i.gifer.com/origin/05/0530e8c4b0468c7cc13fa2e5088597be.gif'
         },
         {
           id: 'sociedadFeudal',
@@ -74,6 +75,7 @@ export const optionsList = {
           en 1492. Por supuesto, tan largo período, mil años, no fue homogéneo. Entre el siglo III y el VIII se dio una etapa de transición (algunos la llaman la Alta Edad Media). Durante ella el Imperio romano se fue fraccionando y Roma misma perdió su poderío como eje y centro del mundo mediterráneo. Hubo una dispersión del poder; no había mando centralizado.`,
           desc2: `Las numerosas tribus hablaban diferentes lenguas, tenían distintas costumbres y, por el miedo a los otros o el deseo de apoderarse de sus tierras, vivían en constantes guerras. Mientras tanto, el descuido y la maleza destruían las carreteras y ciudades construidas por los romanos y caían en el olvido los principios del derecho y organización que ellos impusieron. Esta larga fase de luchas constantes tuvo su culminación con Carlomagno. Su padre Pipino III y su abuelo Carlos Martel, habían consolidado el poder de la tribu de los francos. En 768 Carlomagno (que significa Carlos El Grande) sucedió a su padre y se propuso crear un reino mucho más grande. Este creció con sucesivas conquistas hasta que se convirtió en un imperio, unificando bajo su mando a prácticamente toda Europa.`,
           img: 'https://mihistoriauniversal.com/wp-content/uploads/edad-media.jpg',
+          gif: 'https://img1.picmix.com/output/pic/normal/8/3/8/5/9575838_a3d63.gif',
         },
         {
           id: 'finEdadMedia',
@@ -96,6 +98,7 @@ export const optionsList = {
           desc2: `La rápida difusión del humanismo italiano a todos los círculos cultos de Europa occidental, junto a las nuevas ideas filológicas, historiográficas, artísticas y literarias, se debió a: 1. la imprenta; 2. los sabios griegos, que debieron abandonar Constantinopla después de su caída en manos de los turcootomanos; 3. la relación epistolar entre los hombres de letras europeos; y 4. las primeras universidades. 
           Y hoy ¿qué podemos decir del humanismo? ¿Nos interesa, como jóvenes del siglo XXI, algo que nació hace más de 500 años? Pues sí, sí nos interesa. El humanismo sigue vigente en toda doctrina cuyo principio fundamental sea el respeto a la persona humana y la conciencia de su dignidad. Hoy el mundo se globaliza y ya somos más de 7.300 millones de seres humanos. Sin embargo, persiste la pobreza para la mitad de esa población, y hay desigualdades terribles dentro de cada sociedad y entre una sociedad y otra, mientras hay una concentración de riqueza y poder nunca vistos en la historia humana. El humanismo tiene algo que decir frente a todo esto: que lo importante es el ser humano, y que debe ser el centro de todas las preocupaciones. Que el fin del hombre y de la mujer no es el vacío existencial, la competencia salvaje y el consumismo sin límites, y tampoco la entrega a modelos autoritarios que suprimen la libertad. `,
           img: 'https://www.3minutosdearte.com/wp-content/uploads/2019/09/El-humanismo-miniatura-2.jpg',
+          gif: 'https://www.guatemala.com/fotos/201705/4-grandes-del-renacimiento.gif'
         }
       ]
     },
@@ -124,6 +127,7 @@ export const optionsList = {
           desc2: `El maíz se desarrolló simultáneamente en los dos focos principales, Mesoamérica y la América andina. Ya hace 7.000 años se cultivaba maíz en la zona de Tehuacán, en México, en la Amazonía ecuatoriana y en los Andes centrales del Perú; hace 6.850 años, en Panamá; y 6.000 años en la península de Santa Elena en el Ecuador. El maíz, originalmente, no era sino una pequeña planta que se elevaba un palmo del suelo, con unas mazorquitas de apenas 12 mm. Hace 5.000 años,
           la planta medía unos 50 cm y las mazorcas tenían entre tres y cuatro cm de largo, con pocos granos. Dos o tres mil años después, la evolución natural y los cuidados de los agricultores, que en cada siembra y cada generación separaban los mejores granos como semilla, permitieron que las mazorcas alcancen alrededor de 15 cm. La regla de los pueblos indígenas en América fue la diversidad más que la homogeneidad. Las comunidades que optaron por la agricultura habrían de evolucionar a tribus y a señoríos, y algunas de ellas, no todas, habrían de llegar a Estados y a imperios. Pero todas habrían de pasar por un período que los arqueólogos denominan el Formativo. En este período, los pueblos viven en aldeas, descubren y desarrollan la cerámica, hacen tejidos, perfeccionan las herramientas de piedra y, algunos, descubren la metalurgia del cobre y el oro`,
           img: 'https://compasbolivia.org/wp-content/uploads/2018/08/agricultura-neolitico-660x330.jpg',
+          gif: 'https://c.tenor.com/O2o7-taDEf4AAAAC/greedystories-moralstories.gif'
         },
         {
           id: 'cultuasMesoamericanas',
@@ -137,6 +141,8 @@ export const optionsList = {
           desc3: `Donde hoy se asienta la quinta ciudad más grande del mundo, Ciudad de México, hubo importantes culturas precolombinas. Muy cerca de la actual ciudad se encuentran las pirámides de
           Teotihuacán, producto de una civilización que se desarrolló desde 300 a. C. hasta 650 d. C., aunque después volvió a surgir hasta apagarse hacia 950. Los toltecas dominaron el valle central desde 950 a 1200; su capital fue Tula. Luego surgió una dinastía de gobernantes mexicas, que dominaron el valle de México hacia 1210 y fundaron su capital, Tenochtitlán, en medio de la laguna de México, hacia 1325. Mediante la Triple Alianza (entre las ciudades-Estado de Texcoco, Tlacopan y México-Tenochtitlán), hacia 1427 se inició la expansión del Imperio azteca. Bajo Moctezuma I (ca. 1450), los mexicas alcanzaron su apogeo, sometiendo no solo el valle central, sino grandes zonas del este, norte y sur de México.`,
           img: 'https://t1.up.ltmcdn.com/es/posts/0/3/2/cultura_mesoamericana_resumen_y_caracteristicas_3230_orig.jpg',
+          gif: 'https://i.pinimg.com/originals/f7/08/99/f70899674ead9feb03a8c02d27893ad6.gif',
+          gif2: 'https://i.makeagif.com/media/3-12-2018/Dlz4Uu.gif'
         },
         {
           id: 'culturasAndinas',
@@ -166,6 +172,8 @@ export const optionsList = {
           title4: 'Túpac Yupanqui',
           desc4: `Quien habría de ser el décimo inca ya se había destacado como militar durante el reino de su padre. Dicha característica la confirmó como gobernante, al expandir inmensamente el imperio. Tras asumir el trono, amplió las fronteras hacia el sur hasta llegar al río Biobío en Chile, y sometió a algunos pueblos del altiplano y del norte argentino. Tras dominar a los pueblos del norte del Perú, especialmente a los chimor, emprendió la conquista del norte andino. Sometió a los pueblos Chachapoya, Huancabamba, Palta y Cañari, alrededor de 1450. Sin embargo, no logró derrotar a la Confederación norandina, que unía a los pueblos desde Alausí hacia el norte, bajo la jefatura de la dinastía de los Duchicela, por lo que regresó al Cuzco en 1460. Dos años después, realizó un nuevo intento de conquista de la Confederación norandina. Como recordarán por Historia del Ecuador, en la batalla de Tiocajas (1462) triunfaron los incas sobre los duchicelas. Hualcopo Duchicela fijó, entonces, su residencia en Atuntaqui, donde se fortaleció militarmente para seguir enfrentando a los incas. Al año siguiente, este jefe muere y le sucede Cacha Duchicela, Shyri XV, elúltimo de los Shyris, quien gobernó 24 años.`,
           img: 'https://historiaperuana.pe/wp-content/uploads/imperio-incaico.jpg',
+          gif2: 'https://78.media.tumblr.com/ca969c509d5d50526f9b2565709c1862/tumblr_p4tl4w9J221sjwwzso1_540.gif',
+          gif: 'https://media0.giphy.com/media/ayrbQjEeR7Gb7LGB0T/giphy.gif?cid=82a1493bf5pgsgym9w01h5mnwtnhpz9x91tq83dlb60zlx27&rid=giphy.gif&ct=v'
         },
       ]
     },
@@ -185,7 +193,9 @@ export const optionsList = {
           de Nuevo México, en el sur de EE. UU. Estas son parte de un sistema de cadenas montañosas paralelas conocidas como cordilleras. Una cordillera es una larga serie de sierras y montañas y, aunque existen en todo el mundo, cuando en América del Norte se habla de the Cordilleras se refieren a las grandes cadenas montañosas en la parte occidental del continente. The Cordilleras van desde Canadá hasta el istmo de Panamá.`,
           title3: 'El Escudo Canadiense',
           desc3: `El Escudo Canadiense es una meseta elevada pero relativamente plana. Se extiende por las regiones orientales, centrales y noroccidentales de Canadá. Se caracteriza por un paisaje rocoso espolvoreado por una sorprendente cantidad de lagos. La tundra, que cubre los bordes del nortede Alaska y Canadá hasta el área de la bahía de Hudson, es un bioma común en el Escudo Canadiense. Tundra es una zona donde las bajas temperaturas y los niveles de precipitación impiden el crecimiento de árboles. La tundra se caracteriza por el permafrost, es decir, por suelo que se queda congelado por dos o más años. Este permafrost mantiene la humedad cerca de la superficie del suelo permitiendo el crecimiento de vegetación rastrera incluso en las condiciones árticas extremas de la tundra.`,
-          img: 'https://www.banderas-del-mundo.net/wp-content/uploads/2020/05/Norte-America.jpg'
+          img: 'https://www.banderas-del-mundo.net/wp-content/uploads/2020/05/Norte-America.jpg',
+          gif: 'https://c.tenor.com/arZ8iEZKo6AAAAAC/canada-canadian-flag.gif',
+          gif2: 'https://acegif.com/wp-content/uploads/flag-america-usa.gif'
         },
         {
           id: 'caribeCentroAmerica',
@@ -196,7 +206,8 @@ export const optionsList = {
           Panamá, además de cinco estados mexicanos (Campeche, Chiapas, Quintana Roo, Tabasco y Yucatán). Es, pues, la franja de tierra que une a los otros dos subcontinentes, América del Norte y América del Sur, y representa únicamente 1% de la superficie terrestre.`,
           title2: 'La región del Caribe',
           desc2: `Esta región incluye más de 7.000 islas, islotes, arrecifes y cayos. Las islas e islotes varían en su topografía; algunas son relativamente planas con terrenos arenosos, mientras otras, sobre todo las más grandes, tienen tierra fértil, montañas e incluso volcanes. Los arrecifes de coral y los cayos del Caribe son de los biomas más espectaculares de América. Un arrecife es una cresta dentada de roca, coral o arena que está justo encima o debajo de la superficie del mar. Algunos arrecifes de coral rodean a las islas, como en las Bahamas, Antigua y Barbados (otros se encuentran en los cayos de la Florida, que son una cadena de pequeñas islas situadas sobre una plataforma de arrecifes de coral que se extiende cerca de la costa sur de dicho estado de EE. UU.). Los arrecifes de coral, como ya vimos al hablar de Oceanía, están hechos de millones de muy pequeños animales, los corales, que forman un caparazón duro sobre sus cuerpos. Esta superficie dura viene a ser el hábitat para una rica comunidad de algas y plantas marinas; en las aguas circundantes se encuentran peces tropicales de brillantes colores, tiburones, tortugas marinas y caballitos de mar.`,
-          img: 'https://i0.wp.com/epicentrogeografico.com/wp-content/uploads/Mapa-Politico-de-America-Central.jpg'
+          img: 'https://i0.wp.com/epicentrogeografico.com/wp-content/uploads/Mapa-Politico-de-America-Central.jpg',
+          gif: 'https://thumbs.gfycat.com/CriminalSerpentineAngwantibo-size_restricted.gif'
         },
         {
           id: 'surAmerica',
@@ -208,7 +219,8 @@ export const optionsList = {
           larga del mundo. Tiene alrededor de 8.850 km de largo y corre paralela al Pacífico desde el extremo sur hasta el extremo norte del subcontinente en su lado occidental. En ella hay cientos de picos de más de 4.500 m de alto, muchos volcánicos. La cumbre más alta de los Andes, y la más alta fuera de Asia, el Aconcagua, se eleva a 6.962 m, en la frontera entre Argentina y Chile. Los altiplanos son también un rasgo de los Andes. Por ejemplo, el altiplano de Perú y Bolivia tiene una altura de alrededor de 3.700 m. Los valles interandinos del Ecuador están entre 2.500 y 3.000 m. La región de la Patagonia en Argentina y Chile consta de mesetas y glaciares abruptos de menor elevación.`,
           title3: 'Las cuencas fluviales',
           desc3: `América del Sur tiene tres principales cuencas fluviales: la del Amazonas, la del Orinoco y la del Paraguay/Paraná. La cuenca del Amazonas tiene casi 7 millones de km2 de extensión, lo que la convierte en la mayor cuenca fluvial del mundo. Ocupa la mayor parte del norte de Sudamérica y se alimenta de diversidad de la vida animal en la selva lluviosa del Amazonas. El bosque lluvioso está perfectamente adaptado para los animales que viven en los árboles. Más de dos millones de especies de insectos son nativos de la región, entre ellos cientos de arañas y mariposas. Abundan los primates monos aulladores, monos araña y monos capuchinos junto con perezosos, culebras e iguanas. Cientos de especies de ranas, muchas de ellas venenosas, se ocultan en los matorrales. Miles de pájaros nativos revolotean bajo el dosel, entre ellos águilas, gavilanes, pavas de monte, papagayos, loros, tucanes y periquitos. Igualmente impresionante es el número de especies de peces de agua dulce`,
-          img: 'https://image.slidesharecdn.com/pasesdeamricadelsur-130827231018-phpapp02/95/pases-de-amrica-del-sur-1-638.jpg?cb=1377645082'
+          img: 'https://image.slidesharecdn.com/pasesdeamricadelsur-130827231018-phpapp02/95/pases-de-amrica-del-sur-1-638.jpg?cb=1377645082',
+          gif2: 'https://miro.medium.com/max/3368/1*s-E0nJeR-_hV_34ZLqCOgA.gif'
         },
       ]
     },

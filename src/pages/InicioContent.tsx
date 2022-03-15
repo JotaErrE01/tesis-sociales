@@ -30,7 +30,7 @@ export const InicioContent = () => {
             {
               visible &&
               <h1
-                className="text-white text-3xl font-bold mt-5 mb-14"
+                className="text-indigo-700 text-3xl font-bold mt-5 mb-14"
               >{option.title}</h1>
             }
 

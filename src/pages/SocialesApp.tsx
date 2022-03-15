@@ -3,7 +3,6 @@ import { Navbar } from '../components/';
 import { AsideBar } from '../components/AsideBar';
 
 export const SocialesApp = () => {
-
   return (
     <>
       <Navbar />

@@ -2,12 +2,14 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Bienvenida, SocialesApp } from '../pages';
 import { Inicio, Videos, Juegos, Puzzles } from '../pages/index';
 import { InicioContent } from '../pages/InicioContent';
+import { Creditos } from '../pages/Creditos';
 
 const DashboardRoutes = () => {
   return (
     <Router>
       <Routes>
         <Route path="welcome" element={<Bienvenida />} />
+        <Route path="creditos" element={<Creditos />} />
         <Route path="/*" element={<SocialesApp />} >
           
           {/* rutas de inicio */}

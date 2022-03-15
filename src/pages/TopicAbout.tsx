@@ -15,6 +15,7 @@ interface TopicAboutProps {
   img: string;
   lottie?: string;
   gif?: string;
+  gif2?: string;
 }
 
 export const TopicAbout = (props: TopicAboutProps) => {
@@ -30,7 +31,7 @@ export const TopicAbout = (props: TopicAboutProps) => {
     !props.visible ?
       <div className="">
         <h1
-          className="text-white text-3xl font-bold my-5 text-center"
+          className="text-indigo-700 text-3xl font-bold my-5 text-center"
         >{props.title}</h1>
 
         <div
@@ -46,12 +47,17 @@ export const TopicAbout = (props: TopicAboutProps) => {
           <div className="col-span-3">
             {
               props.title2 &&
-              <h3 className="text-white font-bold text-xl mb-2">{props.title2}</h3>
+              <h3 className="text-white font-bold text-xl mb-2 mt-5">{props.title2}</h3>
             }
 
             {
               props.desc2 &&
               <p className="text-white text-lg lg:mt-0 mt-5">{props.desc2}</p>
+            }
+
+            {
+              props.gif2 && 
+              <img className='w-4/5 block mt-5 md:w-2/5 mb-5 rounded-lg mx-auto' src={props.gif2} alt={props.title} />
             }
           </div>
 

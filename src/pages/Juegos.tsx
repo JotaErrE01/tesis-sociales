@@ -28,7 +28,7 @@ export const Juegos = () => {
             className="flex flex-col items-center justify-center h-screen"
           >
             <h1
-              className="text-white text-3xl font-bold my-5 text-center"
+              className="text-indigo-700 text-3xl font-bold my-5 text-center"
             >{title}</h1>
 
             <iframe
