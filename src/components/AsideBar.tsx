@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { optionsList } from '../data/optionList';
 
-
 export const AsideBar = () => {
 
   const [urList, setUrList] = useState<string[]>();

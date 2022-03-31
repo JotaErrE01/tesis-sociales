@@ -3,6 +3,7 @@ import { Bienvenida, SocialesApp } from '../pages';
 import { Inicio, Videos, Juegos, Puzzles } from '../pages/index';
 import { InicioContent } from '../pages/InicioContent';
 import { Creditos } from '../pages/Creditos';
+import { Agradecimiento } from '../pages/Agradecimiento';
 
 const DashboardRoutes = () => {
   return (
@@ -10,6 +11,7 @@ const DashboardRoutes = () => {
       <Routes>
         <Route path="welcome" element={<Bienvenida />} />
         <Route path="creditos" element={<Creditos />} />
+        <Route path="agradecimientos" element={<Agradecimiento />}/>
         <Route path="/*" element={<SocialesApp />} >
           
           {/* rutas de inicio */}

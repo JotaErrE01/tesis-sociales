@@ -17,5 +17,10 @@ export const navLinks = [
     {
         to: '/creditos',
         text: 'Creditos',
+    },
+    {
+        to: '/agradecimientos',
+        text: 'Agradecimientos',
+        svg: 'fas fa-face-grin-beam'
     }
 ];
