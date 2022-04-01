@@ -19,7 +19,7 @@ export const Navbar = () => {
 
       <header className={`bg-orange-500 shadow-sm shadow-orange-900 md:block fixed md:static h-screen md:h-auto w-full z-10 top-0 ${!visible && 'hidden'}`}>
         <nav
-          className="flex md:flex-row flex-col justify-evenly md:text-2xl text-4xl text-white mx-auto container md:h-auto h-4/5 mt-5 md:mt-0"
+          className="flex md:flex-row flex-col justify-evenly text-4xl md:text-xl lg:text-2xl text-white mx-auto container md:h-auto h-4/5 mt-5 md:mt-0"
         >
           {
             navLinks.map(({ text, to, svg }) => (

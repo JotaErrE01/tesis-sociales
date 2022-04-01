@@ -258,15 +258,27 @@ export const optionsList = {
     },
     {
       id: 6,
-      title: '¿Qué diferencia a los Aztecas de los Mayas?',
-      url: 'https://www.youtube.com/embed/9yc4JIMcZQg',
+      title: 'Epoca Aborigen en America',
+      url: 'https://www.youtube.com/embed/NM9g_Y_MtYI',
       to: '/videos/6',
     },
     {
       id: 7,
+      title: '¿Qué diferencia a los Aztecas de los Mayas?',
+      url: 'https://www.youtube.com/embed/9yc4JIMcZQg',
+      to: '/videos/7',
+    },
+    {
+      id: 8,
       title: 'Los Incas',
       url: 'https://www.youtube.com/embed/i4a7ukZxwSs',
-      to: '/videos/7',
+      to: '/videos/8',
+    },
+    {
+      id: 9,
+      title: 'El Continente Americano',
+      url: 'https://www.youtube.com/embed/Nn2HlDPQ15s',
+      to: '/videos/9',
     },
   ],
   juegos: [
